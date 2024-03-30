@@ -54,3 +54,33 @@ console.log(Object.values(tinderUser));
 console.log(Object.entries(tinderUser));
 
 console.log(tinderUser.hasOwnProperty("isLoggedIn"));
+
+
+const course={
+    courseName:"Js",
+    price:"999",
+    courseInstructor: "Hitesh"
+}
+
+// course.courseInstructor  //everytime not needed to write this
+
+const {courseInstructor}= course
+const {courseInstructor: instructor}= course
+
+console.log(courseInstructor);
+console.log(instructor);
+
+
+// API - json format
+// {
+//     "name":"Vishal",
+//     "courseName":"Js",
+//     "price":"free"
+// }
+
+// [
+//     {},
+//     {},
+//     {}
+// ]
+
