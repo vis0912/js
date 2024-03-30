@@ -38,3 +38,44 @@ console.log(typeof bigNumber);
 console.log(typeof heros);
 console.log(typeof myObj);
 console.log(typeof myFunction);
+
+
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Stack(Primitive)-copy, Heap(Non Primitve)-reference
+
+let myYoutubeName="Vishaldotcom"
+
+let anotherName=myYoutubeName
+
+console.log(anotherName);
+
+anotherName="chaiaurcode"
+
+console.log(myYoutubeName);
+console.log(anotherName);
+
+let userOne={
+    email:"vishal@gmail.com",
+    upi:"vis@ybl"
+}
+
+let userTwo=userOne
+
+console.log(userTwo.email);
+
+userTwo.email="nikhil@gmail.com"
+    
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
+
+
+
+
+
+
+
+
+
